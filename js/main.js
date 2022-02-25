@@ -6,8 +6,6 @@ $(function () {
         }
     });
 
-<<<<<<< HEAD
-=======
 
     var didScroll;
 		var lastScrollTop = 0;
@@ -69,7 +67,6 @@ $(function () {
 
 
     
->>>>>>> c64102c (all files added)
     $('.counter').counterUp({
         delay: 10,
         time: 2000
@@ -114,8 +111,6 @@ $('.brand-carousel').owlCarousel({
         items:6
       }
     }
-<<<<<<< HEAD
-=======
   })
   
   // services
@@ -164,14 +159,11 @@ $('.services-carousel').owlCarousel({
         items:1
       }
     }
->>>>>>> c64102c (all files added)
   }) 
 
 
 
 
-<<<<<<< HEAD
-=======
   $(function() {
     $('.scroll-down').click (function() {
       $('html, body').animate({scrollTop: $('section.scroll-to').offset().top }, 'slow');
@@ -179,19 +171,15 @@ $('.services-carousel').owlCarousel({
     });
   });
   
->>>>>>> c64102c (all files added)
       
     
 });
 
-<<<<<<< HEAD
-=======
 
 
 
 
 
->>>>>>> c64102c (all files added)
 // Slider 
 $(document).ready(function () {
     var owl = $('.header .owl-carousel');
@@ -217,10 +205,7 @@ $(document).ready(function () {
         , margin: 0
         , autoplay: true
         , smartSpeed: 500
-<<<<<<< HEAD
-=======
         ,autoplayTimeout:5000
->>>>>>> c64102c (all files added)
         , animateOut: 'fadeOut'
         ,touchDrag: false
         ,mouseDrag: false
@@ -240,9 +225,5 @@ $(document).ready(function () {
     });
 
     
-<<<<<<< HEAD
-});
-=======
 });
 
->>>>>>> c64102c (all files added)
