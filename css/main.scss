@@ -8,14 +8,11 @@
     --paragraph-color:#919399;
     --link-color:#319CDD;
     --icon-color:#319CDD;
-<<<<<<< HEAD
-=======
     --section-bg-color:#FDF9F4;
 }
 
 html {
     scroll-behavior: smooth;
->>>>>>> c64102c (all files added)
 }
 
 body{
@@ -23,10 +20,7 @@ body{
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
     font-size: 0.875rem;
-<<<<<<< HEAD
-=======
     padding-bottom: 413px;
->>>>>>> c64102c (all files added)
 }
 
 a{
@@ -43,16 +37,6 @@ p{
     color: var(--paragraph-color);
     margin-bottom: 1.25rem !important;
 }
-<<<<<<< HEAD
-span{
-    font-size: 0.875rem;
-    color: var(--secondary-colr);
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-}
-
-=======
 
 .para-padding{
     padding: 35px 0;
@@ -60,7 +44,6 @@ span{
 
 
 
->>>>>>> c64102c (all files added)
 h1{
     font-size: 2.625rem;
 }
@@ -69,18 +52,13 @@ h2{
     color: var(--heading-color) !important;
     font-weight: 700 !important;
     line-height: 2.875rem !important;
-<<<<<<< HEAD
-=======
     margin: 10px 0 !important;
->>>>>>> c64102c (all files added)
 }
 h3{
     font-size: 1.375rem;
 }
 h4{
     font-size: 1.125rem;
-<<<<<<< HEAD
-=======
     line-height: 1.438rem;
 }
 main{
@@ -97,7 +75,6 @@ main{
     font-size: 2.625rem;
     line-height: 3.563rem;
     color: #FFFFFF;
->>>>>>> c64102c (all files added)
 }
 
 .continer{
@@ -109,8 +86,6 @@ main{
 }
 
 
-<<<<<<< HEAD
-=======
   .booger {
     opacity: 0.1;
     transition: opacity .3s ease-in-out;
@@ -119,7 +94,6 @@ main{
     }
   }
 
->>>>>>> c64102c (all files added)
 
 hr{
     margin: 0 80px;
@@ -138,12 +112,9 @@ hr{
 .pt{
     padding-top: 120px;
 }
-<<<<<<< HEAD
-=======
 .pt-80{
     padding-top: 80px;
 }
->>>>>>> c64102c (all files added)
 .pb{
     padding-bottom: 120px;
 }
@@ -156,10 +127,6 @@ hr{
 }
 
 .navbar{
-<<<<<<< HEAD
-    background:#ffffff;
-    padding: 0 !important;
-=======
     background: #fff;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     position: fixed !important;
@@ -174,7 +141,6 @@ hr{
         transform: translateY(-80px);
     }
 
->>>>>>> c64102c (all files added)
     .container{
         display: -webkit-box;
         display: -ms-flexbox;
@@ -238,36 +204,26 @@ nav{
             }
             
         } 
-<<<<<<< HEAD
-        .active-btn{
-=======
         .contact-btn{
->>>>>>> c64102c (all files added)
             background: var(--primary-color);
             color: #ffffff;
             &:hover{
                 background: var(--primary-color);
             }
         }
-<<<<<<< HEAD
-=======
 
         .active-btn{
             background: var(--secondary-colr);
             color: #ffffff;
         }
->>>>>>> c64102c (all files added)
     }
 }
 
 .header {
     min-height: 75vh;
     position: relative;
-<<<<<<< HEAD
-=======
     z-index: 2;
     margin-top: 78px;
->>>>>>> c64102c (all files added)
     .video {
         overflow: hidden;
     }
@@ -384,62 +340,13 @@ nav{
         font-family: Noto Sans;
         font-style: normal;
         font-weight: 600;
-<<<<<<< HEAD
-        font-size: 0.875;
-=======
         font-size: 0.875rem;
         -webkit-box-align: center;
         -ms-flex-align: center;
->>>>>>> c64102c (all files added)
         align-items: center;
         letter-spacing: 0.04rem;
         text-transform: uppercase;
         color: #FFFFFF;
-<<<<<<< HEAD
-        margin-left: 10px;
-        align-items: center;
-    }
-
-}
-
-.owl-nav{
-    position: absolute;
-    top: 31%;
-    left: 12%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: #ffffff;
-
-    .owl-prev{
-        font-size: 1.25rem;
-        margin: 10px;
-        transition: all 0.3s;
-
-        &:hover{
-            transform: scale(1.3); 
-
-        }
-    }
-    .owl-next{
-        font-size: 1.25rem;
-        margin: 10px;
-        transition: all 0.3s;
-
-        &:hover{
-            transform: scale(1.3); 
-
-        }
-
-    }
-
-   
-}
-
-.stats{
-    margin:0 auto;
-    padding: 45px 0;
-=======
         align-items: center;
         align-self: center;
         margin: 0 10px;
@@ -486,7 +393,6 @@ nav{
 .stats{
     margin:0 auto;
     padding: 85px 0;
->>>>>>> c64102c (all files added)
 
 
     .stats-counter{
@@ -506,8 +412,6 @@ nav{
     }
 } 
 
-<<<<<<< HEAD
-=======
 
 .primary-btn{
     display: flex;
@@ -571,7 +475,6 @@ nav{
     color: #000000 !important;
 }
 
->>>>>>> c64102c (all files added)
 .legacy{
     background-color: #FDF9F4;
     display: flex;
@@ -607,43 +510,7 @@ nav{
         }
 
         
-<<<<<<< HEAD
-        .primary-btn{
-            display: flex;
-        }
-        .primary-btn a{
-            border: 1px solid var(--link-color);
-            color: var(--link-color);
-            font-size: 0.875rem;
-            font-weight: 500;
-            padding: 14px 90px;
-            background: linear-gradient(to right, var(--secondary-colr) 50%, #ffffff00 50%);
-            background-size: 200% 100%;
-            height: auto;
-            background-position: right bottom;
-            transition: all .5s ease-out;
-
-            &:hover{
-                background-position: left bottom;
-                color:#ffffff;
-            }
-
-            .main-button{
-                text-align: center; 
-                transition: all .6s ease-out;
-                display: block;
-
-                &:hover{
-                    color: white;
-                }
-            }
-           
-            
-
-        }
-=======
         
->>>>>>> c64102c (all files added)
     }
 
     
@@ -661,8 +528,6 @@ nav{
     }
     .single-logo{
         width: 100%;
-<<<<<<< HEAD
-=======
         align-items: center;
         // -webkit-transition: all .2s ease-in-out;
         // -o-transition: all .2s ease-in-out;
@@ -682,7 +547,6 @@ nav{
         //     -o-filter: none;
         // }
 
->>>>>>> c64102c (all files added)
     }
     .owl-stage{
         display: flex;
@@ -700,20 +564,11 @@ nav{
 
     .featured-img{
         margin-top: -120px;
-<<<<<<< HEAD
-=======
         
->>>>>>> c64102c (all files added)
         img{
             width: 100%;
             object-fit: cover;
         }
-<<<<<<< HEAD
-    }
-
-}
-
-=======
         .featured-image-01{
             width: 100%;
             height: 450px;
@@ -799,7 +654,6 @@ nav{
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
->>>>>>> c64102c (all files added)
 
 .continue-icon{
     width: 40px;
@@ -812,8 +666,6 @@ nav{
     }
 }
 
-<<<<<<< HEAD
-=======
 
 
 .services{
@@ -1596,4 +1448,3 @@ nav{
 
 
 
->>>>>>> c64102c (all files added)
