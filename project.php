@@ -3,6 +3,7 @@ $page='project.php';
 require('inc/header.php'); 
 require('inc/nav.php');  
 ?>
+
 <main>
     <!-- Header Slider -->
         <div class="header pos-re slider-fade project ">
@@ -315,7 +316,7 @@ require('inc/nav.php');
 
   <!-- Upadates -->
     
-  <section class="updates">
+  <!-- <section class="updates">
     <div class="container-fluid">
         <div class="row news-updates pt">
                 <div class="col-sm-4">
@@ -348,7 +349,7 @@ require('inc/nav.php');
              
         </div>
     </div>
-</section>
+</section> -->
 
 
 </main>

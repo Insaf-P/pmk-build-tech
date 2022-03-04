@@ -359,7 +359,7 @@ nav li .active-btn {
 .slider-fade .owl-item .slider-fade .item .caption {
   z-index: 9;
   width: 770px;
-  margin: 100px auto;
+  margin: 150px auto;
 }
 
 .slider .owl-item .owl-theme .owl-dots,
@@ -456,8 +456,8 @@ nav li .active-btn {
 
 .main-slider .owl-nav {
   position: absolute;
-  top: 31%;
-  left: 12%;
+  top: 39%;
+  left: 14%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1891,7 +1891,7 @@ nav li .active-btn {
 -----------------------*/
 @media (min-width: 1920px) and (max-width: 2560px) {
   .main-slider .owl-nav {
-    top: 27%;
+    top: 24%;
     left: 21%;
   }
   .what-we-do svg {

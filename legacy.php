@@ -33,7 +33,7 @@ require('inc/nav.php');
                     <img  src="images/kelkutty.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-sm-6 pr-5 mid-align">
-                    <h2 data-wow-delay="0.3s" class="pb-4 wow fadeInUp">Our Founder</h2>
+                    <h2 data-wow-delay="0.3s" class="pb-4 wow fadeInUp">PM Kelukkutty</h2>
                     <p data-wow-delay="0.4s" class="wow fadeInUp">Successful people in every field are often said to be "blessed with talent" or even just “lucky”. However, the truth is that many people worked harder than the average person can realise. We would like to take you through the story of an extremely ambitious person who battled against all the adversities faced in life and rose to the zenith of success. He emerged to become Kerala's most successful contractor through sheer determination and hard work. He is our backbone, our strength, P.M Kelukutty who is the founder of P.M.K Group. </p>
                     <p id="text">
                         P.M.K Group was started by P.M Kelukutty in 1974 and has been delivering efficient and top-quality projects ever since. His past few decades have been about the design and execution of high-value projects that have had a drastic impact on the economy of South India, thereby improving the living standards of the entire population of the region.  His days always start with a quick warm-up at 4:30 a.m., followed by his regimen. In his 80s, he is still doing the same thing with the same zeal. And that motivates everyone here to do more and do better with the time we have. His rapport with the team, as well as the way he manages situations, astounds us. We are fortunate to have a mentor like him to look up to, and we are grateful to have a plethora of initiatives that are now becoming significant landmarks.
@@ -293,7 +293,7 @@ require('inc/nav.php');
 
   <!-- Upadates -->
     
-  <section class="updates">
+  <!-- <section class="updates">
     <div class="container-fluid">
         <div class="row news-updates pt">
                 <div class="col-sm-4">
@@ -326,7 +326,7 @@ require('inc/nav.php');
              
         </div>
     </div>
-</section>
+</section> -->
 
 </main>
 

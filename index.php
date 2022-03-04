@@ -1,5 +1,5 @@
 <?php 
-
+$page='index.php';
 require('inc/header.php'); 
 require('inc/nav.php');
 
@@ -13,30 +13,30 @@ require('inc/nav.php');
                     <div class="container caption">
                         <h4><span>1/3</span>Project</h4>
                         <h1 data-wow-delay="0.2s" class="wow fadeInRight">Building your legacy for the future</h1>
-                        <div class="video-button">
+                        <!-- <div class="video-button">
                             <a class="video-play-btn popup-vimeo" href="https://vimeo.com/646343688"><img src="images/icon/play-icon.svg" class="img-fluid" alt=""></a>
                             <h5>watch video</h5>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="item bg-img" data-overlay-dark="3" data-background="images/banner-image-2.jpg">
                     <div class="container caption">
                         <h4><span>2/3</span>Service</h4>
                         <h1 data-wow-delay="0.3s" class="wow fadeInRight">Plan meticulously and deliver seamlessly</h1>
-                        <div class="video-button">
+                        <!-- <div class="video-button">
                             <a class="video-play-btn popup-vimeo" href="https://vimeo.com/646343688"><img src="images/icon/play-icon.svg" class="img-fluid" alt=""></a>
                             <h5>watch video</h5>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="item bg-img" data-overlay-dark="3" data-background="images/banner-image-3.jpg">
                     <div class="container caption">
                         <h4><span>3/3</span>Clients</h4>
                         <h1 data-wow-delay="0.4s" class="wow fadeInRight">48 years of exceeding expectations</h1>
-                        <div class="video-button">
+                        <!-- <div class="video-button">
                             <a class="video-play-btn popup-vimeo" href="https://vimeo.com/646343688"><img src="images/icon/play-icon.svg" class="img-fluid" alt=""></a>
                             <h5>watch video</h5>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -60,9 +60,9 @@ require('inc/nav.php');
                         <div data-wow-delay="0.4s"  class="legacy-intro wow fadeInUp">
                             <span>Legacy</span>
                             <h2>PM Kelukkutty</h2>
-                            <p>PMK Constructions is a company built on trust and reliability with a commitment towards innovation, professional integrity, uncompromised quality, skilled employees and a safe working environment. We started in 1974 as a vision of Mr.P.M. </p>
+                            <p>Successful people in every field are often said to be "blessed with talent" or even just “lucky”. However, the truth is that many people worked harder than the average person can realise. We would like to take you through the story of an extremely ambitious person who battled against all the adversities faced in life and rose to the zenith of success. He emerged to become Kerala's most successful contractor through sheer determination and hard work. He is our backbone, our strength, P.M Kelukutty who is the founder of P.M.K Group. </p>
                             <div class="primary-btn">
-                                <a href="#" class="main-button wow fadeInUp">Know More</a>
+                                <a href="legacy.php" class="main-button wow fadeInUp">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ require('inc/nav.php');
         <div class="container">
             <div class="row">
               <div class="col-sm-4 featured-img">
-                <a href="#">
+                <a href="project-details.php">
                     <div data-wow-delay="0.3s" class="featured-image-01 wow fadeInUp">
                         <div class="overlay-caption">
                            <h4>Seiken</h4>
@@ -148,7 +148,7 @@ require('inc/nav.php');
                 </a>
               </div>
               <div class="col-sm-4 featured-img ">
-                <a href="#">
+                <a href="project-details.php">
                     <div data-wow-delay="0.4s" class="featured-image-02 wow fadeInUp">
                         <div class="overlay-caption">
                            <h4>Sarovaram</h4>
@@ -159,7 +159,7 @@ require('inc/nav.php');
                 </a>
               </div>
               <div class="col-sm-4 featured-img">
-                <a href="#">
+                <a href="project-details.php">
                     <div data-wow-delay="0.5s" class="featured-image-03 wow fadeInUp">
                         <div class="overlay-caption">
                            <h4>Bay Heights</h4>
@@ -199,7 +199,7 @@ require('inc/nav.php');
                         <h2>Plan meticulously and deliver seamlessly.</h2>
                         <p class="para-padding">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         <div class="primary-btn">
-                            <a data-wow-delay="0.3s" href="#" class="main-button wow fadeInUp">View All</a>
+                            <a data-wow-delay="0.3s" href="service.php" class="main-button wow fadeInUp">View All</a>
                         </div>
                     </div>
                     <div class="col-sm-8 zero-padding-r-mobile">
@@ -211,7 +211,7 @@ require('inc/nav.php');
                                         </svg>                                        
                                     <h3>Pre Engineering</h3>
                                     <p>More than 44 years, has a track record of successfully completing projects of medium and large size. Mr.Kelukutty started this organization with a group of skilled workers at a ver</p>
-                                    <a href="">Read more</a>
+                                    <a href="service.php">Read more</a>
                                 </div>
                             </div>
                             <div class="item">
@@ -221,7 +221,7 @@ require('inc/nav.php');
                                         </svg>   
                                     <h3>Pre Engineering</h3>
                                     <p>More than 44 years, has a track record of successfully completing projects of medium and large size. Mr.Kelukutty started this organization with a group of skilled workers at a ver</p>
-                                    <a href="">Read more</a>
+                                    <a href="service.php">Read more</a>
                                 </div>
                             </div>
                             <div class="item">
@@ -231,7 +231,7 @@ require('inc/nav.php');
                                         </svg>      
                                     <h3>Pre Engineering</h3>
                                     <p>More than 44 years, has a track record of successfully completing projects of medium and large size. Mr.Kelukutty started this organization with a group of skilled workers at a ver</p>
-                                    <a href="">Read more</a>
+                                    <a href="service.php">Read more</a>
                                 </div>
                             </div>
                             <div class="item">
@@ -241,7 +241,7 @@ require('inc/nav.php');
                                         </svg>                                        
                                     <h3>Pre Engineering</h3>
                                     <p>More than 44 years, has a track record of successfully completing projects of medium and large size. Mr.Kelukutty started this organization with a group of skilled workers at a ver</p>
-                                    <a href="">Read more</a>
+                                    <a href="service.php">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -283,7 +283,7 @@ require('inc/nav.php');
     </section>
 
     <!-- Upadates -->
-    
+<!--     
    <section class="updates">
        <div class="container-fluid">
            <div class="row news-updates pt">
@@ -317,7 +317,7 @@ require('inc/nav.php');
                 
            </div>
        </div>
-   </section>
+   </section> -->
 
   
 
