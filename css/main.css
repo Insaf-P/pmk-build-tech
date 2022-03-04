@@ -939,8 +939,39 @@ nav li .active-btn {
   color: #ffffff;
 }
 
+.hero-banner-project-details {
+  width: 100%;
+  height: 75vh;
+  position: relative;
+  z-index: 3;
+  margin-top: 40px;
+}
+
+.hero-banner-project-details img {
+  width: 100%;
+  position: relative;
+  padding: 0 20px;
+  height: 75vh;
+  background-size: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.hero-banner-project-details .overlay {
+  width: auto;
+  padding: 0 16px;
+  height: 75vh;
+  background: rgba(0, 0, 0, 0.24);
+  position: absolute;
+  top: 0;
+  left: 35px;
+  right: 35px;
+  z-index: 1;
+}
+
 .legacy-intro-inner {
   position: relative;
+  overflow: hidden;
 }
 
 .legacy-intro-inner svg {
@@ -1006,6 +1037,7 @@ nav li .active-btn {
 
 .what-we-do {
   position: relative;
+  overflow: hidden;
 }
 
 .what-we-do .zero-margin {
@@ -1059,6 +1091,7 @@ nav li .active-btn {
 .inner-stats {
   position: relative;
   padding-right: 70px;
+  overflow: hidden;
 }
 
 .inner-stats .stats-counter {
@@ -1822,6 +1855,35 @@ nav li .active-btn {
 
 [data-overlay-dark="3"]:before, [data-overlay-color="3"]:before, [data-overlay-light="3"]:before {
   opacity: 0.2;
+}
+
+.back-button {
+  position: fixed;
+  z-index: 5;
+  left: 6%;
+  top: 10%;
+}
+
+.back-button button {
+  background: transparent;
+  border: none;
+}
+
+.back-button .fa-solid {
+  background-color: #ffffff;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.28);
+          box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.28);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.back-button .fa-solid:hover {
+  background-color: var(--secondary-colr);
+  color: #ffffff;
 }
 
 /*-----------------------

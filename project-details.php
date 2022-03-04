@@ -1,128 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PMK BUILD TECH</title>
-
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
-
-</head>
-<body>
-    <!-- Main navigation -->
-    <div class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html" ><img src="images/logo.svg" alt="logo"></a>
-            </div>
-            <nav>
-                <ul class="primary-nav">
-                    <li><a href="legacy.html">Legacy</a></li>
-                    <li><a href="project.html">Project</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a class="active-btn" href="updates.html">Updates</a></li>
-                    <li><a class="contact-btn" href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-
+<?php 
+require('inc/header.php');  
+?>
 
 <main>
 
-<!-- Updates -->
+ <div class="back-button">
+     <button onclick="history.back()"><i class="fa-solid fa-arrow-left-long"></i></button>
+ </div>
 
-    <section class="updates-inner">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-8 recent-box">
-                    <a href="updates-details.html">
-                        <img src="images/updates/updates-bg-01.png" alt="">
-                    <div class="updates-caption-overlay">
-                        <div class="news-heading">
-                            <h4>BUILDING REPAIR & CONSTRUCTION</h4>
-                        <p>Know More<i class="fa-solid fa-arrow-right-long"></i></p>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="updates-details.html">
-                        <div class="recent-updtes">
-                            <img src="images/updates/updates-bg-02.jpg" alt="">
-                            <div class="overlay">
-                                <div class="news-heading">
-                                    <h5>BUILDING REPAIR & CONSTRUCTION</h5>
-                                <p>Know More<i class="fa-solid fa-arrow-right-long"></i></p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="updates-details.html">
-                        <div class="recent-updtes">
-                        <img src="images/updates/updates-bg-03.jpg" alt="">
-                        <div class="overlay">
-                            <div class="news-heading">
-                                <h5>BUILDING REPAIR & CONSTRUCTION</h5>
-                            <p>Know More<i class="fa-solid fa-arrow-right-long"></i></p>
-                            </div>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- News -->
-
-    <div class="alln-news-heading">
-        <div class="container-fluid">
-            <div class="row">
-                <h3>Latest News</h3>
-            </div>
-        </div>
+    <!-- service-banner -->
+   <section class="project-banner hero-banner-project-details">
+    <div class="container-fluid">
+     <div class="project-header">
+         <img src="images/projects/project-bg.jpg" alt="">
+         <div class="overlay">
+             <h1 class="main-heading">Lorem Ipsum is simply dummy text </h1>   
+         </div>
+          <div class="scroll-down"><i class="fa-solid fa-arrow-down-long"></i></div>
     </div>
+    </div>
+</section>
 
-    <section class="all-news">
-        <div class="container-fluid">
+
+    <section class="project-details pt pb scroll-to">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-4 top-margin">
-                    <img src="images/updates/news01.jpg" class="img-fluid" alt="">
-                    <h4>Lorem Ipsum is simply dummy text </h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining </p>
-                    <div class="primary-btn">
-                        <a href="updates-details.html" class="main-button">Know More</a>
-                    </div>
+                   <div class="col-sm-6">
+                    <p class="des-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                   </div>
+                   <div class="col-sm">
+                       <h3>Client</h3>
+                       <p>Lorem Ipsum is simply dummy text </p>
+                   </div>
+                   <div class="col-sm">
+                    <h3>Year</h3>
+                    <p>2018-2020 </p>
                 </div>
-                <div class="col-sm-4 top-margin">
-                    <img src="images/updates/news02.jpg" class="img-fluid" alt="">
-                    <h4>Lorem Ipsum is simply dummy text </h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining </p>
-                    <div class="primary-btn">
-                        <a href="updates-details.html" class="main-button">Know More</a>
-                    </div>
+                <div class="col-sm">
+                    <h3>Sq.Ft</h3>
+                    <p>70,592</p>
                 </div>
-                <div class="col-sm-4 top-margin">
-                    <img src="images/updates/news03.jpg" class="img-fluid" alt="">
-                    <h4>Lorem Ipsum is simply dummy text </h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining </p>
-                    <div class="primary-btn">
-                        <a href="updates-details.html" class="main-button">Know More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- project images -->
+
+    <section class="project-images pt">
+        <div class="container-fluid">
+            <div class="location">
+                <svg width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.87576 21C6.6516 19.8387 5.50955 18.5965 4.4576 17.282C3.21929 15.7481 2.09735 14.1419 1.2282 12.3741C0.679756 11.2571 0.241003 10.1034 0.0739645 8.86481C-0.172695 7.04223 0.19813 5.33743 1.17809 3.77999C2.47152 1.72788 4.3546 0.493102 6.77665 0.100318C9.97877 -0.420106 13.2605 1.12035 14.8897 3.88462C16.1703 6.06 16.3095 8.33562 15.4805 10.6923C14.8624 12.4503 13.9242 14.04 12.8502 15.5575C11.5139 17.4463 9.99269 19.1851 8.33512 20.8077C8.26719 20.874 8.19536 20.9359 8.12576 21H7.87576ZM4.33344 7.8886C4.33344 9.87169 5.98656 11.4877 8.01663 11.4861C10.0155 11.4861 11.6653 9.86293 11.6681 7.89737C11.6709 5.90606 10.0383 4.27302 8.03667 4.27302C7.5515 4.2686 7.07025 4.3589 6.62078 4.53869C6.17131 4.71848 5.76255 4.98419 5.41814 5.32044C5.07374 5.65669 4.80054 6.0568 4.61435 6.49763C4.42816 6.93845 4.33268 7.41123 4.33344 7.8886V7.8886Z" fill="#2A93D2"/>
+                    </svg>
+                    
+    
+                    <p>Kozhikode, Kerala</p>
+            </div>
+                
+            <div class="row">
+                <div class="project-slide owl-carousel owl-theme">
+                    <div class="item cursor-cst">
+                        <img src="images/projects/slider-1.jpg" alt="">
+                    </div>
+
+                    <div class="item cursor-cst">
+                        <img src="images/projects/slider-2.jpg" alt="">
+                    </div>
+
+                    <div class="item cursor-cst">
+                        <img src="images/projects/slider-3.jpg" alt="">
+                    </div>
+
+                    <div class="item cursor-cst">
+                        <img src="images/projects/slider-1.jpg" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials -->
+ <!-- Testimonials -->
 
- <section class="testimonial m-0">
+ <section class="testimonial m-0 pt">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-8">
@@ -187,7 +146,6 @@
     </div>
 </section>
 
-
 </main>
 
 <footer class="footer_fixed">
@@ -246,13 +204,29 @@
         </div>
     </div>
 </footer>
-
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"></script>  
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js'></script>
     <script src='https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js'></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
     <script src="js/main.js"></script>
+    
+    <script>
+        // image popup
+        $(document).ready(function() {
+            $(".popup").magnificPopup({
+                type: "image",
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: true,
+                gallery: {
+                enabled: true
+                }
+            });
+        });
+    </script>
+
 </body>
 </html>

@@ -1,171 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PMK BUILD TECH</title>
+<?php 
+$page='service.php';
+require('inc/header.php'); 
+require('inc/nav.php');  
+?>
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css">
+<main>
 
-    <style>
-        
-    </style>
-
-
-</head>
-<body>
-    <!-- Main navigation -->
-    <div class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html" ><img src="images/logo.svg" alt="logo"></a>
-            </div>
-            <nav>
-                <ul class="primary-nav">
-                    <li><a class="active-btn" href="legacy.html">Legacy</a></li>
-                    <li><a href="project.html">Project</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="updates.html">Updates</a></li>
-                    <li><a class="contact-btn" href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+    <!-- service-banner -->
+   <section class="service-banner hero-banner">
+    <div class="container-fluid">
+     <div class="service-header">
+         <img src="images/service-bg.jpg" alt="">
+         <div class="overlay">
+             <h1 class="main-heading">Plan meticulously and deliver seamlessly.</h1>   
+         </div>
+          <div class="scroll-down"><i class="fa-solid fa-arrow-down-long"></i></div>
     </div>
-<!-- legacy-banner -->
-   <section class="legacy-banner hero-banner">
-       <div class="container-fluid">
-        <div class="legacy-header">
-            <img src="images/legacy-banner.jpg" alt="">
-            <div class="overlay">
-                <h1 data-wow-delay="0.2s" class="main-heading wow fadeInLeft">We are not just contractors. 
-                    We are a partner, collaborator and catalyst.
-                    </h1>   
-            </div>
-             <div class="scroll-down"><i class="fa-solid fa-arrow-down-long"></i></div>
-       </div>
-       </div>
-   </section>
-   
-   <main>
-
-   <!-- legacy-intro -->
-   <section class="legacy-intro-inner scroll-to pt">
-        <div class="container">
-            <svg  viewBox="0 0 512 679" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="512" height="679" fill="#FDF9F4"/>
-                </svg>
-            <div class="row">
-                <div class="col-sm-6">
-                    <img data-wow-delay="0.2s"  src="images/kelkutty.jpg" class="img-fluid wow fadeInUp" alt="">
-                </div>
-                <div class="col-sm-6 pr-5 mid-align">
-                    <h2 data-wow-delay="0.3s" class="pb-4 wow fadeInUp">Our Founder</h2>
-                    <p data-wow-delay="0.4s" class="wow fadeInUp">Successful people in every field are often said to be "blessed with talent" or even just “lucky”. However, the truth is that many people worked harder than the average person can realise. We would like to take you through the story of an extremely ambitious person who battled against all the adversities faced in life and rose to the zenith of success. He emerged to become Kerala's most successful contractor through sheer determination and hard work. He is our backbone, our strength, P.M Kelukutty who is the founder of P.M.K Group. </p>
-                    <p id="text">
-                        P.M.K Group was started by P.M Kelukutty in 1974 and has been delivering efficient and top-quality projects ever since. His past few decades have been about the design and execution of high-value projects that have had a drastic impact on the economy of South India, thereby improving the living standards of the entire population of the region.  His days always start with a quick warm-up at 4:30 a.m., followed by his regimen. In his 80s, he is still doing the same thing with the same zeal. And that motivates everyone here to do more and do better with the time we have. His rapport with the team, as well as the way he manages situations, astounds us. We are fortunate to have a mentor like him to look up to, and we are grateful to have a plethora of initiatives that are now becoming significant landmarks.
-
-                    </p>
-                    <button data-wow-delay="0.5s" class="wow fadeInUp" id="toggle">Show more<i class="fa-solid fa-chevron-down"></i></button>
-                </div>
-            </div>
-                
-        </div> 
-   </section>
-
-
-   
-
-<!-- what-we-do -->
-
-   <section class="what-we-do pt pb">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 pr-5 mid-align">
-                <h2 data-wow-delay="0.2s" class="pb-4 wow fadeInUp">What we do</h2>
-                <p data-wow-delay="0.3s" class="wow fadeInUp">PMK  Build tech’s selflessness and unstinted, dedicated work coupled with exemplary service and timely completion of projects has been the reason for the company’s success. Equipped with the latest knowhow of the construction industry, PMK today has a team of highly experienced professionals to implement their projects.
-                </p>
-                <p data-wow-delay="0.4s" class="wow fadeInUp">Be it construction of Medical Colleges, Engineering Colleges, Multi-Storied Apartments, Luxury villas, Super Specialty Hospitals, Shopping malls, Convention Centre, Industrial complex, Stadium, Public Schools, Hotels, IT Park, Resort., one look at any of the major projects in Kerala and you will find the PMK Stamp on them all.</p>
-            </div>
-            <div data-wow-delay="0.5s" class="col-sm-6 zero-margin wow fadeInRight">
-                <img src="images/what-we-do.jpg" class="img-fluid" alt="">
-            </div>
-            <svg width="138" height="498" viewBox="0 0 138 498" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="138" height="498" fill="#FDF9F4"/>
-                </svg>
-                
-        </div>
     </div>
 </section>
 
-<!-- Mision Vision -->
+<!-- Srrvices -->
 
-<section class="mision pt pb">
-    <div class="container">
-        <div class="row pt-80">
-            <div data-wow-delay="0.3s" class="col-sm-6 wow fadeInUp">
-                <svg data-wow-delay="0.3s" class="wow fadeInUp" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 14.8249C0.0704715 14.3661 0.114869 13.9031 0.202958 13.4479C0.828745 10.2379 2.52852 7.73968 5.25295 5.949C7.46998 4.49447 9.92733 3.93633 12.5608 4.17875C14.1488 4.32544 15.6868 4.81111 17.071 5.60298C17.3571 5.76436 17.4509 6.00115 17.3254 6.22807C17.2 6.45498 16.9569 6.50502 16.6616 6.33941C14.9854 5.39083 13.0823 4.91742 11.1571 4.97015C6.36499 5.07727 2.14938 8.5346 1.10781 13.2153C-0.143057 18.8319 3.21491 24.3498 8.78498 25.8297C14.5221 27.3554 20.4833 23.7191 21.7799 17.8862C22.3599 15.2787 21.9871 12.7911 20.7186 10.4387C20.7102 10.4232 20.7003 10.4091 20.6919 10.3936C20.5065 10.0568 20.5368 9.81718 20.7814 9.68258C21.0259 9.54798 21.2451 9.65651 21.4297 9.9849C25.1886 16.6755 21.3543 25.1553 13.8427 26.7508C13.2959 26.8664 12.737 26.9256 12.1831 27.0115H10.7117C10.6543 26.9924 10.5953 26.9782 10.5355 26.9693C8.43051 26.8051 6.50946 26.1194 4.80334 24.8791C2.32979 23.0827 0.775187 20.6867 0.201549 17.6769C0.114869 17.2223 0.0662433 16.7607 0 16.302V14.8249Z" fill="#0F6FA9"/>
-                    <path d="M23.0304 9.11022L21.8049 8.78253C21.1002 8.59507 20.3955 8.41678 19.6964 8.21382C19.5019 8.15745 19.3934 8.20959 19.263 8.34067C16.8111 10.7987 14.3573 13.2539 11.9016 15.7064C11.5866 16.0214 11.3413 16.0686 11.1391 15.8536C10.9368 15.6387 10.9981 15.4174 11.3026 15.1102C13.7573 12.6554 16.2128 10.203 18.669 7.75294C18.8134 7.612 18.8437 7.48938 18.7895 7.29347C18.5076 6.27938 18.2454 5.25966 17.9671 4.24416C17.8966 3.99751 17.9396 3.80935 18.1249 3.62613C19.2666 2.49083 20.4004 1.3506 21.5393 0.212484C21.8951 -0.139873 22.2334 -0.0475557 22.3652 0.441517C22.6435 1.47463 22.9247 2.50774 23.1946 3.54226C23.2045 3.61093 23.2363 3.67455 23.2853 3.7236C23.3344 3.77265 23.398 3.80446 23.4667 3.81428C24.5026 4.08349 25.535 4.36537 26.5674 4.64444C27.0607 4.77693 27.1544 5.11448 26.8 5.46966C25.6621 6.60848 24.5233 7.74542 23.3835 8.88048C23.2785 8.98267 23.1326 9.04468 23.0304 9.11022ZM21.7091 1.26462C21.668 1.29171 21.6287 1.32136 21.5914 1.35342C20.7021 2.24136 19.8113 3.12719 18.9304 4.02288C18.9001 4.06546 18.8791 4.11397 18.8689 4.16523C18.8587 4.21649 18.8595 4.26933 18.8712 4.32027C19.1136 5.26318 19.3723 6.20186 19.6168 7.14407C19.6277 7.20757 19.6583 7.26602 19.7044 7.31107C19.7505 7.35612 19.8096 7.38548 19.8733 7.39494C20.7979 7.63455 21.7225 7.87908 22.6428 8.13701C22.7145 8.1649 22.7933 8.16928 22.8676 8.14952C22.942 8.12976 23.0081 8.08688 23.0565 8.02707C23.8958 7.17719 24.7429 6.33576 25.5871 5.4901C25.64 5.43654 25.6858 5.37664 25.7492 5.30335C24.7979 5.04542 23.8789 4.7875 22.9536 4.55212C22.6717 4.48165 22.5273 4.33225 22.4561 4.05177C22.22 3.12719 21.9642 2.20894 21.7091 1.26462Z" fill="#0F6FA9"/>
-                    <path d="M11.4458 22.3791C7.52974 22.3121 4.4459 19.0063 4.70242 15.1001C4.94273 11.4356 8.16539 8.59627 11.8398 8.82108C12.6399 8.86702 13.4251 9.05805 14.1569 9.38485C14.5043 9.54059 14.6319 9.74778 14.5212 9.99936C14.4106 10.2509 14.1787 10.3123 13.8236 10.16C10.7024 8.81614 7.15765 10.2918 5.9258 13.4475C4.53752 17.0035 6.92227 20.9774 10.7179 21.4298C11.5753 21.5364 12.4456 21.4537 13.2676 21.1876C14.0896 20.9215 14.8433 20.4783 15.4755 19.8895C16.1077 19.3006 16.6031 18.5802 16.9269 17.7792C17.2506 16.9781 17.3948 16.1158 17.3492 15.253C17.3127 14.5403 17.1455 13.8404 16.8559 13.1882C16.8011 13.0698 16.7727 12.9409 16.7728 12.8105C16.7812 12.611 16.9222 12.4933 17.1125 12.463C17.2091 12.4406 17.3106 12.4565 17.3958 12.5073C17.4809 12.5582 17.5431 12.6401 17.5691 12.7358C17.7685 13.37 18.0314 13.9979 18.1237 14.6491C18.3547 16.2709 17.9847 17.9213 17.0834 19.2893C16.1821 20.6572 14.8116 21.6484 13.2302 22.0761C12.6509 22.2325 12.0413 22.2797 11.4458 22.3791Z" fill="#0F6FA9"/>
-                    </svg>
-                    <h2 data-wow-delay="0.2s" class="pb-3 wow fadeInUp">Mision</h2> 
+<section class="services-inner scroll-to pt pb">
+     <div class="container">
+         <div class="row">
+             <div data-wow-delay="0.2s" class="col-sm-6 align-self-sm-center pr wow fadeInUp">
+                 <span>01</span>
+                 <h3 class="pb-4">Civil & Structural construction</h3>
+                 <p>Civil and Structural Construction engineering involves planning and execution of the designs from transportation, site development, hydraulic, environmental, structural and geotechnical engineering. Civil Construction works undertaken by PMK are done with utmost sincerity, responsibility and customer satisfaction</p>
+             </div>
+             <div data-wow-delay="0.3s" class="col-sm-6 p-0 wow fadeInRight">
+                 <img src="images/service_01.jpg" class="img-fluid" alt="">
+             </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-6 p-0 d-flex justify-content-end wow fadeInLeft">
+                <img src="images/service_02.jpg" class="img-fluid" alt="">
             </div>
-            <div data-wow-delay="0.3s" class="col-sm-6 wow fadeInUp">
-                <p>To continue being the trusted engineering, construction and project management partner for all our clients and to be a responsible corporate citizen committed to social clause. We encourage innovation, professional integrity, upgradation of knowledge and skilled labour, while providing safe working environments.</p>
-            </div>
-        </div>
-        <div class="row pt">
-            <div class="col-sm-6">
-                <svg width="33" height="26" viewBox="0 0 33 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 16.9014C0.0972775 16.4186 0.142042 15.9178 0.303885 15.4583C0.559646 14.7647 0.850419 14.0845 1.17508 13.4205C1.88615 11.9171 2.61702 10.4223 3.34015 8.92319C3.37286 8.85595 3.40041 8.78526 3.43743 8.71975C3.58377 8.46113 3.84462 8.35769 4.08652 8.46889C4.14496 8.49663 4.19718 8.53594 4.24003 8.58445C4.28288 8.63297 4.31546 8.68967 4.33582 8.75114C4.35617 8.81261 4.36387 8.87758 4.35846 8.94212C4.35305 9.00665 4.33463 9.06942 4.30432 9.12663C4.0538 9.6723 3.7878 10.2111 3.52954 10.7533C3.48477 10.8481 3.44345 10.9438 3.36684 11.1093L3.74389 10.8878C6.05789 9.53035 8.45597 9.35996 10.9381 10.3766C11.1964 10.4809 11.3608 10.643 11.3221 10.9343C11.2782 11.2662 10.964 11.3955 10.6041 11.2878C9.95933 11.0947 9.31282 10.8567 8.65598 10.7619C5.18584 10.2447 1.73464 12.7601 1.09674 16.2325C0.379641 20.1306 2.8684 23.6908 6.77844 24.365C10.3312 24.9779 13.9417 22.4366 14.5606 18.8686C14.9988 16.3437 14.2593 14.2015 12.3973 12.4464C12.3586 12.4093 12.3172 12.3748 12.2794 12.336C12.0667 12.1153 12.0478 11.8464 12.2286 11.6464C12.4093 11.4464 12.7046 11.4016 12.9173 11.6266C13.4407 12.1912 13.9339 12.7851 14.4341 13.3705C14.5235 13.4914 14.6057 13.6174 14.6803 13.748C14.688 13.6187 14.6941 13.561 14.6941 13.5032C14.6941 11.6205 14.7027 9.73868 14.6941 7.85684C14.6803 5.22158 12.5195 3.12078 9.89476 3.23888C8.15496 3.31646 6.83956 4.15609 5.98644 5.68449C5.72818 6.15258 5.51469 6.64826 5.27795 7.13014C5.10578 7.48875 4.83891 7.61374 4.56516 7.47496C4.2914 7.33617 4.21823 7.06031 4.40159 6.72412C4.81395 5.94828 5.2065 5.15951 5.67653 4.41988C6.05445 3.82593 6.62348 3.38973 7.23814 3.05095C7.45525 2.93534 7.62315 2.74484 7.71075 2.51476C8.09211 1.58634 8.68869 0.851019 9.59863 0.39586C12.0228 -0.817896 14.9153 0.94843 14.9498 3.66128C14.9498 3.71473 14.9498 3.76903 14.9498 3.82248C14.9282 4.56298 14.9239 5.28795 15.3122 5.97759C15.4843 6.28447 15.5214 6.66722 15.6255 7.04652H17.3034C17.5461 6.41464 17.7846 5.80863 18.0093 5.19744C18.0361 5.08459 18.0469 4.96849 18.0411 4.85262C18.0807 4.1785 18.0334 3.48628 18.1745 2.83544C18.5086 1.28721 19.7585 0.238106 21.3727 0.0269058C22.7845 -0.157571 24.3142 0.619991 24.9883 1.94754C25.2939 2.55097 25.6589 3.01216 26.24 3.37853C27.0526 3.89575 27.6079 4.66642 28.0254 5.53364C29.284 8.15597 30.5391 10.78 31.8184 13.3937C32.2152 14.2049 32.6129 15.0075 32.8109 15.8988C33.7751 20.2427 30.831 24.596 26.4474 25.2951C22.0854 25.9899 18.0971 23.0736 17.417 18.6919C17.3696 18.3858 17.3524 18.0755 17.3197 17.7505H15.7452C15.573 18.5488 15.4732 19.3436 15.2235 20.0884C14.1044 23.4141 10.8563 25.6141 7.44475 25.4003C3.81793 25.1736 0.873776 22.6348 0.150651 19.1074C0.0921124 18.8246 0.0499301 18.5393 0 18.2548V16.9014ZM32.0241 17.5609C32.0216 16.2018 31.6167 14.874 30.8606 13.7454C30.1045 12.6168 29.0313 11.738 27.7765 11.2201C26.5217 10.7022 25.1417 10.5685 23.8111 10.8359C22.4804 11.1033 21.2588 11.7598 20.3007 12.7223C19.3426 13.6849 18.691 14.9103 18.4283 16.2437C18.1656 17.577 18.3036 18.9584 18.8249 20.2132C19.3461 21.468 20.2272 22.5399 21.3568 23.2933C22.4863 24.0467 23.8136 24.4479 25.1708 24.446C26.0724 24.4451 26.965 24.2662 27.7975 23.9196C28.6301 23.573 29.3862 23.0655 30.0227 22.426C30.6592 21.7865 31.1636 21.0277 31.507 20.1929C31.8504 19.3581 32.0261 18.4637 32.0241 17.5609ZM18.3045 13.7679C19.5235 11.7472 21.1833 10.4499 23.3983 9.93695C25.6133 9.42403 27.663 9.83954 29.5724 11.0826C29.5724 11.0214 29.5793 10.9964 29.5724 10.9809C28.7046 9.18266 27.8791 7.3603 26.9545 5.59398C26.0007 3.7699 23.8726 2.88027 21.8504 3.35267C19.9032 3.80524 18.3717 5.57501 18.3209 7.56978C18.2649 9.60248 18.3071 11.6378 18.3071 13.7713L18.3045 13.7679ZM17.3102 16.7505V8.05339H15.6746V16.754L17.3102 16.7505ZM13.946 3.82507C14.1139 2.682 13.216 1.4329 11.9979 1.08291C10.7797 0.732919 9.35156 1.31652 8.89013 2.37597C10.8185 2.02167 12.498 2.51218 13.946 3.82507ZM24.0852 2.35959C23.6737 1.30101 22.1139 0.696713 20.8768 1.11394C19.7138 1.50617 18.7892 2.87682 19.063 3.80352C20.7718 2.43201 21.5491 2.20874 24.087 2.35873L24.0852 2.35959Z" fill="#0F6FA9"/>
-                    <path d="M7.82244 11.7319C8.97612 11.7304 10.1044 12.0714 11.0645 12.7119C12.0247 13.3524 12.7737 14.2635 13.2168 15.3302C13.6599 16.3968 13.7772 17.5711 13.554 18.7045C13.3307 19.838 12.7769 20.8797 11.9625 21.6979C11.1481 22.5162 10.1097 23.0744 8.97858 23.3018C7.84746 23.5292 6.67441 23.4157 5.60772 22.9756C4.54102 22.5355 3.62857 21.7886 2.98573 20.8293C2.34288 19.87 1.9985 18.7413 1.99611 17.5861C1.99408 16.8184 2.14324 16.0578 2.43508 15.348C2.72691 14.6381 3.15569 13.9928 3.69686 13.449C4.23803 12.9053 4.88097 12.4737 5.58889 12.1791C6.29681 11.8845 7.0558 11.7325 7.82244 11.7319ZM7.83018 12.6974C6.8674 12.6971 5.92612 12.9826 5.12534 13.5178C4.32455 14.0531 3.7002 14.814 3.33121 15.7045C2.96222 16.595 2.86515 17.575 3.05227 18.5208C3.23939 19.4665 3.7023 20.3354 4.38249 21.0177C5.06268 21.7001 5.92962 22.1652 6.87371 22.3542C7.81781 22.5433 8.79668 22.4478 9.6866 22.0799C10.5765 21.7119 11.3375 21.0881 11.8735 20.2871C12.4094 19.4862 12.6961 18.5441 12.6975 17.58C12.6995 16.9394 12.5752 16.3046 12.3317 15.7121C12.0882 15.1197 11.7303 14.5812 11.2785 14.1275C10.8267 13.6739 10.2899 13.3141 9.69888 13.0686C9.10787 12.8232 8.47429 12.6971 7.83449 12.6974H7.83018Z" fill="#0F6FA9"/>
-                    <path d="M30.997 17.185C30.997 20.6573 28.5866 23.2055 25.5142 23.4072C22.4857 23.6055 19.7774 21.3624 19.384 18.3298C18.9389 14.873 21.6455 11.7239 25.051 11.7334C25.4987 11.7334 25.7526 12.0593 25.5813 12.4118C25.4582 12.6653 25.2301 12.6911 24.983 12.7024C23.3241 12.7808 22.0234 13.5196 21.0997 14.8902C20.5592 15.7002 20.2758 16.6548 20.2867 17.6289C20.2976 18.603 20.6023 19.5511 21.1608 20.3487C21.5874 20.9643 22.15 21.4731 22.8048 21.8356C23.4596 22.1982 24.1891 22.4047 24.9366 22.4391C25.6841 22.4736 26.4294 22.335 27.1147 22.0342C27.8 21.7334 28.4069 21.2784 28.8881 20.7047C29.3693 20.1309 29.712 19.4538 29.8895 18.7259C30.067 17.998 30.0746 17.2389 29.9116 16.5076C29.7486 15.7763 29.4195 15.0925 28.9498 14.5092C28.4801 13.926 27.8824 13.459 27.2032 13.1446C26.7409 12.9291 26.6006 12.7136 26.7358 12.4118C26.8752 12.0963 27.1472 12.0403 27.6173 12.2739C29.8151 13.3661 30.9049 15.1721 30.997 17.185Z" fill="#0F6FA9"/>
-                    </svg>
-                    <h2 class="pb-3">vision</h2> 
-            </div>
-            <div class="col-sm-6">
-                <p>To be pioneers in the field of innovation in construction and to persistently maintain our track record in reliable execution and bring forth high-impact work towards achieving sustainable growth and development globally.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- VALUES -->
-
-<section class="value pt pb">
-    <div class="container">
-        <h2>VALUES</h2>
-        <div class="row pt-80">
-            <div class="col-sm-6">
-                <span>01</span>
-                <h3 class="pb-3">Creativity</h3>
-                <p>Our commitment to innovation allows us to be creative while ensuring functionality in the design, construction methodology and all other services that we provide.</p>
-            </div>
-            <div class="col-sm-6 pt-80 pl-5">
+            <div data-wow-delay="0.2s" class="col-sm-6 align-self-sm-center pl wow fadeInUp">
                 <span>02</span>
-                <h3 class="pb-3">Openness and Trust</h3>
-                <p>We strongly believe in being honest and candid with our clients. We strive to achieve trustworthy relationships that ensure better and more efficient services.</p>
+                <h3 class="pb-4">project management</h3>
+                <p>Our Project management services includes the disciplines of planning, organizing, securing, and managing resources to achieve specific goals. The primary challenge of project management is to achieve all of the project goals and objectives while honoring the preconceived constraints.Typical constraints are scope, time, and budget. The secondary—and more ambitious—challenge is to optimize the allocation and integrate the inputs necessary to meet pre-defined objectives. We do them all with utmost precision.</p>
             </div>
         </div>
-        <div class="row pt-80">
-            <div class="col-sm-6">
+        <div class="row">
+            <div data-wow-delay="0.3s" class="col-sm-6 align-self-sm-center pr wow fadeInUp">
                 <span>03</span>
-                <h3 class="pb-3">Integrity and Reliability</h3>
-                <p>We honor integrity and reliability in relationships with our clients. We deliver all our work with the same morals and ethics.</p>
+                <h3 class="pb-4">Pre engineering</h3>
+                <p>Pre Engineering involves construction employing prefabricated modules, cast on ground using Cranes. The structures are done by skillful maneuvering, involving scientific and mathematical principles to practical ends.</p>
             </div>
-            <div class="col-sm-6 pt-80 pl-5">
-                <span>04</span>
-                <h3 class="pb-3">Teamwork and Collaboration</h3>
-                <p>Teamwork and collaboration is our biggest strength. We have an enthusiastic team of employees who collaborate with all the departments to bring our best work in the best ways for every project.</p>
+            <div class="col-sm-6 p-0 wow fadeInLeft">
+                <img src="images/service_03.jpg" class="img-fluid" alt="">
             </div>
         </div>
-    </div>
+        <div class="row">
+           <div data-wow-delay="0.2s" class="col-sm-6 p-0 d-flex justify-content-end wow fadeInRight">
+               <img src="images/service_04.jpg" class="img-fluid" alt="">
+           </div>
+           <div data-wow-delay="0.3s" class="col-sm-6 align-self-sm-center pl wow fadeInUp">
+               <span>04</span>
+               <h3 class="pb-4">Design & Consultancy</h3>
+               <p><b>PMK</b>provides professional and expert advice in areas such as design,management, planning , construction, technology and pre-engineering. Thus, clients have access to deeper levels of expertise than would be feasible for them to retain in-house, and may purchase only as much service from the outside consultant as desired.</p>
+           </div>
+       </div>
+     </div>
 </section>
+
 
 <!-- Inner-statistics -->
 
@@ -174,6 +74,17 @@
         <div class="row">
             <div class="col-sm-6 p-0">
                 <img src="images/stats-b.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm continue-cta-p-t">
+                <span class="small-heading">Continue to</span>
+                <h2>Our Project</h2>
+            </div>
+            <div class="col-sm continue-cta-p-t">
+                <svg class="continue-icon cta-icon-end" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="19" cy="19" r="18.5" stroke="#319CDD"/>
+                    <path d="M28.7071 19.7071C29.0976 19.3166 29.0976 18.6834 28.7071 18.2929L22.3431 11.9289C21.9526 11.5384 21.3195 11.5384 20.9289 11.9289C20.5384 12.3195 20.5384 12.9526 20.9289 13.3431L26.5858 19L20.9289 24.6569C20.5384 25.0474 20.5384 25.6805 20.9289 26.0711C21.3195 26.4616 21.9526 26.4616 22.3431 26.0711L28.7071 19.7071ZM10 20H28V18H10V20Z" fill="#319CDD"/>
+                    </svg>
+                    
             </div>
         </div>
         <div class="stats-counter">
@@ -231,96 +142,9 @@
                 
         </div>
     </div>
-        
+       
 </section>
-
-
-<!-- Group 0f Companies -->
-
-<section class="group-of-companies pt pb">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xl-6 col-sm-12 pr-5">
-                <h2 class="pb-4">Group of companies</h2>
-                <p class="pr-5">PMK group, founded in 1974 by P.M. Kelukutty, is one of the most reputed construction companies in Kerala. The company to this day functions under the mentorship, guidance and wisdom of P.M. Kelukutty, and comprises a set of daughter companies - all of which work together simultaneously to support each other’s cause. PMK group prides itself on the provision of a highly dedicated, versatile and skilled construction team - who are committed and passionate about their work. Over the years, they have excelled at delivering top-notch projects and providing unmatchable quality standards to their clientele. Together with their customers, they deliver landmark projects that create long-term progress and economic growth.</p>
-                
-            </div>
-            <div class="col-xl-6 col-sm-12  align-self-sm-center mobile-margin-top">
-                <div class="group-logo pb-5">
-                    <img src="images/group-of-companies/pmk-developers-contractors.png" class="img-fluid" alt="">
-                    <img src="images/group-of-companies/pmk-group.png" class="img-fluid" alt="">
-                    <img src="images/group-of-companies/pmk-kelkutty.png" class="img-fluid" alt="">
-                </div>
-                <div class="group-logo">
-                    <img src="images/group-of-companies/pmk-construction.png" class="img-fluid" alt="">
-                    <img src="images/group-of-companies/pmk-contractors.png" class="img-fluid" alt="">
-                    <img src="images/group-of-companies/pmk-bu-india.png" class="img-fluid" alt="">
-                </div>  
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- Team -->
-
-<section class="team pt">
-    <div class="container-fluid">
-        <h2 class="pb-5">Our Team</h2>
-        <div class="row team-members-wrapper">
-                <div class="col-sm-3 team-members">
-                    <img src="images/team/Mohanan.jpg" class="img-fluid" alt="">
-                    <h4>Manoharan P</h4>
-                    <p>Director</p>
-                </div>
-                <div class="col-sm-3 team-members">
-                    <img src="images/team/manoj.jpg" class="img-fluid" alt="">
-                    <h4>Manoj P</h4>
-                    <p>Director</p>
-                </div>
-                <div class="col-sm-3 team-members">
-                    <img src="images/team/alex-philip.jpg" class="img-fluid" alt="">
-                    <h4>Alex Philip</h4>
-                    <p>General Manager Projects</p>
-                </div>
-                <div class="col-sm-3 team-members">
-                    <img src="images/team/sunilkumar.jpg" class="img-fluid" alt="">
-                    <h4>Sunil Kumar D</h4>
-                    <p>General Manager Projects</p>
-                </div>
-        </div>
-    </div>   
-</section>
-
- <!-- Testimonials -->
-
- <section class="testimonial pt">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4 testimonial-heading align-middle">
-                <svg width="59" height="49" viewBox="0 0 59 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M22.4552 25.9677V49H0V32.7419C0 26.4194 1.02736 20.6237 3.08209 15.3548C5.13682 10.086 8.58582 4.96774 13.4291 0L21.7948 6.77418C16.0709 13.2473 12.842 19.6452 12.1082 25.9677H22.4552ZM59 25.9677V49H36.5448V32.7419C36.5448 26.4194 37.5721 20.6237 39.6269 15.3548C41.6816 10.086 45.1306 4.96774 49.9739 0L58.3396 6.77418C52.6157 13.2473 49.3868 19.6452 48.653 25.9677H59Z" fill="#77BBE5"/>
-                    </svg>
-                    
-                <h2>What Our clients say</h2>
-            </div>
-            <div class="col-sm-8">
-                <div class="testimonials owl-carousel owl-theme">
-                    <div class="item">
-                        <img class="review-img" src="images/testimonial/demo.jpg" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release.</p>
-                        <h4>John David</h4>
-                    </div>
-                    <div class="item">
-                        <img class="review-img" src="images/testimonial/demo.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusantium obcaecati maiores amet. Blanditiis veniam consectetur nisi. Sit quos suscipit obcaecati saepe perferendis id, vel necessitatibus ullam quo sint placeat magni aperiam explicabo, natus est provident nesciunt quisquam ipsum nihil molestiae porro a reiciendis reprehenderit? Voluptatem eligendi iste veniam ipsum eum ea voluptas nobis, natus aspernatur aperiam recusandae maxime minima repudiandae, facere doloremque</p>
-                        <h4>John David</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+   
 
   <!-- Upadates -->
     
@@ -426,27 +250,5 @@
     <script src='https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js'></script>
     <script src="js/main.js"></script>
-
-    <script>
-        $(document).ready(function() {
-  $("#toggle").click(function() {
-    var elem = $("#toggle").text();
-    if (elem == "Show more") {
-      //Stuff to do when btn is in the Show more state
-      $("#toggle").text("Show Less");
-      $("#text").slideDown();
-      i.className = "fa-solid fa-chevron-up";
-      $('i', this).toggleClass('fa-solid fa-chevron-up');
-    } else {
-      //Stuff to do when btn is in the Show less state
-      $("#toggle").text("Show more");
-      $("#text").slideUp();
-      $('i', this).toggleClass('fa-solid fa-angle-down');
-      
-    }
-  });
-});
-    </script>
-
 </body>
 </html>
