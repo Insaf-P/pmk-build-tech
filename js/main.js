@@ -275,7 +275,7 @@ $(document).ready(function () {
         , nav: true
         ,navText : ["<i class='fa fa-long-arrow-left'></i>","<i class='fa fa-long-arrow-right'></i>"]
         , margin: 0
-        , autoplay: true
+        , autoplay: false
         , smartSpeed: 500
         ,autoplayTimeout:5000
         , animateOut: 'fadeOut'
@@ -299,3 +299,8 @@ $(document).ready(function () {
     
 });
 
+new WOW().init();
+
+$('.reset').click(function(){
+  new WOW().init();
+})

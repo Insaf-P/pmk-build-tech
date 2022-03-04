@@ -611,14 +611,14 @@ nav{
             height: 450px;
             background-size: cover !important;
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 50.77%),
-            url("../images/featured-01.jpg");
+            url("../images/Seiken\ retreat.webp");
         }
         .featured-image-02{
             width: 100%;
             height: 450px;
             background-size: cover !important;
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 50.77%),
-            url("../images/featured-02.jpg");
+            url("../images/SAROVARAM.webp");
         }
         .featured-image-03{
             width: 100%;
@@ -626,7 +626,7 @@ nav{
             background-size: cover !important;
             background-repeat: no-repeat !important;
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 50.77%),
-            url("../images/featured-03.jpg");
+            url("../images/bayheights.webp");
         }
         .fa {
             color: #ffffff;
@@ -756,6 +756,7 @@ nav{
 .testimonial{
     position: relative;
     margin-top: 180px;
+    overflow: hidden;
 
     .testimonial-heading{
         background-color: var(--secondary-colr);
@@ -1561,6 +1562,8 @@ nav{
                 will-change: transform;
                 transition: all 0.5s ease;
                 width: 100%;
+                height: 380px;
+                object-fit: cover;
                 overflow: hidden;
             }
         }
@@ -1584,6 +1587,7 @@ nav{
             text-transform: capitalize;
             margin-bottom: 15px;
             padding-right: 10px;
+            text-transform: uppercase;
         }
         p {
             color: var(--paragraph-color);
@@ -1639,6 +1643,69 @@ nav{
         cursor: grab;
     }
 }
+
+
+[data-overlay-dark] {
+	position: relative;
+	.container {
+		position: relative;
+		color: #fff;
+		z-index: 2;
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		background: #000;
+	}
+}
+[data-overlay-color] {
+	position: relative;
+	.container {
+		position: relative;
+		color: #fff;
+		z-index: 2;
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		background-color: #000;
+	}
+}
+[data-overlay-light] {
+	position: relative;
+	.container {
+		position: relative;
+		color: #fff;
+		z-index: 2;
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		background: #fff;
+	}
+}
+
+[data-overlay-dark="3"]:before, [data-overlay-color="3"]:before, [data-overlay-light="3"]:before {
+    opacity: 0.2;
+}
+
+
+
 
 
 

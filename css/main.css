@@ -668,16 +668,16 @@ nav li .active-btn {
   width: 100%;
   height: 450px;
   background-size: cover !important;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.78)), color-stop(50.77%, rgba(0, 0, 0, 0))), url("../images/featured-01.jpg");
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 50.77%), url("../images/featured-01.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.78)), color-stop(50.77%, rgba(0, 0, 0, 0))), url("../images/Seiken retreat.webp");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 50.77%), url("../images/Seiken retreat.webp");
 }
 
 .featured-project .featured-img .featured-image-02 {
   width: 100%;
   height: 450px;
   background-size: cover !important;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.78)), color-stop(50.77%, rgba(0, 0, 0, 0))), url("../images/featured-02.jpg");
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 50.77%), url("../images/featured-02.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.78)), color-stop(50.77%, rgba(0, 0, 0, 0))), url("../images/SAROVARAM.webp");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 50.77%), url("../images/SAROVARAM.webp");
 }
 
 .featured-project .featured-img .featured-image-03 {
@@ -685,8 +685,8 @@ nav li .active-btn {
   height: 450px;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.78)), color-stop(50.77%, rgba(0, 0, 0, 0))), url("../images/featured-03.jpg");
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 50.77%), url("../images/featured-03.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.78)), color-stop(50.77%, rgba(0, 0, 0, 0))), url("../images/bayheights.webp");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 50.77%), url("../images/bayheights.webp");
 }
 
 .featured-project .featured-img .fa {
@@ -803,6 +803,7 @@ nav li .active-btn {
 .testimonial {
   position: relative;
   margin-top: 180px;
+  overflow: hidden;
 }
 
 .testimonial .testimonial-heading {
@@ -1673,6 +1674,9 @@ nav li .active-btn {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   width: 100%;
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
 }
 
@@ -1692,6 +1696,7 @@ nav li .active-btn {
   text-transform: capitalize;
   margin-bottom: 15px;
   padding-right: 10px;
+  text-transform: uppercase;
 }
 
 .filter-portfolio .portfolio-content p {
@@ -1750,6 +1755,73 @@ nav li .active-btn {
 .project-images .cursor-cst {
   cursor: -webkit-grab;
   cursor: grab;
+}
+
+[data-overlay-dark] {
+  position: relative;
+}
+
+[data-overlay-dark] .container {
+  position: relative;
+  color: #fff;
+  z-index: 2;
+}
+
+[data-overlay-dark]:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #000;
+}
+
+[data-overlay-color] {
+  position: relative;
+}
+
+[data-overlay-color] .container {
+  position: relative;
+  color: #fff;
+  z-index: 2;
+}
+
+[data-overlay-color]:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #000;
+}
+
+[data-overlay-light] {
+  position: relative;
+}
+
+[data-overlay-light] .container {
+  position: relative;
+  color: #fff;
+  z-index: 2;
+}
+
+[data-overlay-light]:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #fff;
+}
+
+[data-overlay-dark="3"]:before, [data-overlay-color="3"]:before, [data-overlay-light="3"]:before {
+  opacity: 0.2;
 }
 
 /*-----------------------
